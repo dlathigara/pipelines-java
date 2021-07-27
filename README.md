@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/dlathigara/dlathigara/_apis/build/status/dlathigara.pipelines-java?branchName=master)](https://dev.azure.com/dlathigara/dlathigara/_build/latest?definitionId=1&branchName=master)
 
 # Contributing
 
