@@ -29,12 +29,13 @@ steps:
 - task: PowerShell@2
   inputs:
     targetType: 'filePath'
-    filePath: $(System.DefaultWorkingDirectory)\test_ps_script.ps1
+    filePath: .\test_ps_script.ps1
     arguments: > # Use this to avoid newline characters in multiline string
       -input1 ${{ parameters.Param1 }}
   displayName: 'Demo PS script'
 
 - task: PowerShell@2
+  displayName: 'Inline PS script'
   inputs:
     targetType: 'inline'
     script: |
