@@ -6,7 +6,6 @@ parameters:
 - name: Param1
   displayName: Parameter1
   type: string
-  default: PValue1
 
 trigger:
 - master
