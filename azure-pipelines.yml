@@ -2,9 +2,6 @@
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
-variables:
-- name: var1
-
 trigger:
 - master
 
@@ -28,7 +25,7 @@ steps:
     targetType: 'filePath'
     filePath: './test_ps_script.ps1'
     arguments: > # Use this to avoid newline characters in multiline string
-      -input1 ${{ variables.var1 }}
+      -input1 $(Var1)
   displayName: 'Demo PS script'
 
 - task: PowerShell@2
