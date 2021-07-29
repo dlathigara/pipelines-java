@@ -6,7 +6,7 @@ parameters:
 - name: param1
   displayName: Parameter1
   type: string
-  default: defaultvalue
+  default: $(Param1)
 
 trigger:
 - master
