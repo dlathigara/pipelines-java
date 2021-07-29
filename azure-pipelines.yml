@@ -3,7 +3,7 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 parameters:
-- name: Param1
+- name: param1
   displayName: Parameter1
   type: string
 
@@ -30,7 +30,7 @@ steps:
     targetType: 'filePath'
     filePath: './test_ps_script.ps1'
     arguments: > # Use this to avoid newline characters in multiline string
-      -input1 ${{ parameters.Param1 }}
+      -input1 ${{ parameters.param1 }}
   displayName: 'Demo PS script'
 
 - task: PowerShell@2
