@@ -1,1 +1,15 @@
-
+{
+    "definition": {
+            "id": "1"
+        },
+    "requestedBy":{
+        "id": "026e12c5-292e-6bef-9b0a-95450ba5bdb7"
+        },
+    "lastChangedBy":{
+        "id": "026e12c5-292e-6bef-9b0a-95450ba5bdb7"
+        },
+    "requestedFor":{
+        "id": "026e12c5-292e-6bef-9b0a-95450ba5bdb7"
+        },
+        "bypassRules":true
+}
